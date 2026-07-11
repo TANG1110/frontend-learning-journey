@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体图标的使用</title>
+    <style>
+        /* 字体声明 */
+@font-face {
+  font-family: "iconfont";
+  /* ./ 表示当前HTML文件所在的目录，fonts/ 表示进入fonts子文件夹 */
+  src: url("./font/iconfont.ttf") format('truetype');
+  
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 100px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+    </style>
+</head>
+<body>
+<span class="iconfont">&#xe6c7;</span>
+</body>
+</html>

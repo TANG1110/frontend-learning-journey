@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课堂练习</title>
+    <style>
+        /* 请给一个200*200 得盒子 设置上边框为红色 其余为蓝色 */
+        div {
+            width: 200px;
+            height: 200px;
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+            border-top-color: red; */
+
+            /* 就近原则，大的写在上面，小的写在下面 否则会被覆盖 */
+            /* 层叠性 只是层叠了上边框 */
+            border: 10px solid blue;
+            border-top: 10px solid red;
+            /* border: 10px solid blue; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
